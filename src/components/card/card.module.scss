@@ -1,0 +1,40 @@
+.root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    font-stretch: expanded;
+}
+
+.card {
+    width: 20em;
+    height: 30em;
+    border: 0px solid black;
+    border-radius: 2em;
+    background-color: #FFFFFF;
+    box-shadow: 1.41px 1.41px 33px 5px #8A8A8A;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 60%;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+    overflow: hidden;
+    padding: 0px 8px;
+}
+
+.card-footer-title {
+    color: #808080;
+}
