@@ -15,7 +15,9 @@ export const Card = ({ className }: CardProps) => {
             <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" className={styles['card-img']} />
             <div className={styles['card-footer']}>
                 <div className={styles['card-footer-titlebar']}>
-                    <h3 className={styles['card-footer-title']}>Title</h3>
+                    <span>
+                        <h3 className={styles['card-footer-title']}>Mountain view</h3><p>Located in the mountain</p>
+                    </span>
                     <h3 className={styles['card-footer-title']}>Heart</h3>
                 </div>
                 <div className={styles['card-footer-detail']}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,</div>
