@@ -14,7 +14,11 @@ export const Card = ({ className }: CardProps) => {
         <div className={styles.card}>
             <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" className={styles['card-img']} />
             <div className={styles['card-footer']}>
-                <h3 className={styles['card-footer-title']}>Title</h3>
+                <div className={styles['card-footer-titlebar']}>
+                    <h3 className={styles['card-footer-title']}>Title</h3>
+                    <h3 className={styles['card-footer-title']}>Heart</h3>
+                </div>
+                <div className={styles['card-footer-detail']}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,</div>
             </div></div>
     </div>;
 };

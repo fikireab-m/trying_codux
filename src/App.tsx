@@ -12,7 +12,6 @@ function App() {
     return (
         <div className={styles.App}>
             <div className={styles.bg}>
-                <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" className={styles['person-img']} />
                 <h1 className={styles['title-text']}>Hi. <br />I&apos;m Fikireab.<br />Trying Codux</h1>
             </div>
         </div>
